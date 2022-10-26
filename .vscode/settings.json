@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    ".git/": true,
+  },
+  "editor.rulers": [85, 100, 120],
+  "editor.formatOnSave": true
+}
