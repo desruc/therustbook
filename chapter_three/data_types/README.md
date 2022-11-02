@@ -33,3 +33,13 @@ A tuple is a general way of grouping together a number of values with a variety 
 We create a tuple by writing a comma-separated list of values inside parentheses. Each position in the tuple has a type, and the types of the different values in the tuple don’t have to be the same.
 
 > The tuple without any values has a special name, unit. This value and its corresponding type are both written () and represent an empty value or an empty return type. Expressions implicitly return the unit value if they don’t return any other value.
+
+# Arrays
+
+- Unlike arrays in some other languages, arrays in Rust have a fixed length.
+
+You write an array’s type using square brackets with the type of each element, a semicolon, and then the number of elements in the array, like so:
+`let a: [i32; 5] = [1, 2, 3, 4, 5];`
+
+You can also initialize an array to contain the same value for each element by specifying the initial value, followed by a semicolon, and then the length of the array in square brackets, as shown here:
+`let a = [3; 5];`
